@@ -1,5 +1,5 @@
-# estudando-ruby
-Estudo de Ruby
+#Estudo de Ruby
+Projetinho com alguns arquivos de testes de Ruby...
 
 #Notas
 
