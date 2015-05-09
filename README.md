@@ -13,3 +13,10 @@ http://stackoverflow.com/questions/5660209/backspace-and-arrow-keys-arent-workin
 ##Execuntando um arquivo Ruby
 
 PATH_To_FILE/ruby file.rb
+
+#Criando minha própria gem
+
+Para treinar a criação de gem, segui o tutorial do site RubyGem : http://guides.rubygems.org/make-your-own-gem/
+A gem criada esta no diretório minha-gem;
+
+Publicado => https://rubygems.org/gems/ola-mundo-novo
