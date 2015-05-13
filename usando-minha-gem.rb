@@ -1,10 +1,11 @@
 #Importando minha Gem
 require 'ola-mundo-novo'
 
-def oi(language = "english")
-  Hello.hi(language)
+class UsandoMinhaGem
+	def oi(language = "english")
+  		Hello.hi(language)
+	end
 end
-
 #puts Hello.hi "pt-BR"
-
-puts oi "pt-BR"
+u = UsandoMinhaGem.new
+puts u.oi "pt-BR"
