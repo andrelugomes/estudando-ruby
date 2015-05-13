@@ -20,3 +20,8 @@ Para treinar a criação de gem, segui o tutorial do site RubyGem : http://guide
 A gem criada esta no diretório minha-gem;
 
 Publicado => https://rubygems.org/gems/ola-mundo-novo
+
+
+#Usando a Gem
+bundle init para criar um GemFile
+

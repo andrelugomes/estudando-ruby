@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ola-mundo-novo (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ola-mundo-novo (>= 0.0.1)

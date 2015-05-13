@@ -1,5 +1,7 @@
 class Pessoa
-  attr "nome"
+  #Symbol é mais performatico
+  attr :nome
+  
   attr "idade"
 
   def initialize(nome, idade)
