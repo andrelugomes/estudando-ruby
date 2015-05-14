@@ -7,5 +7,6 @@ class UsandoMinhaGem
 	end
 end
 #puts Hello.hi "pt-BR"
-u = UsandoMinhaGem.new
-puts u.oi "pt-BR"
+
+#u = UsandoMinhaGem.new
+#puts u.oi "pt-BR"

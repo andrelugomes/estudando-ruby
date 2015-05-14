@@ -24,4 +24,8 @@ Publicado => https://rubygems.org/gems/ola-mundo-novo
 
 #Usando a Gem
 bundle init para criar um GemFile
+caso a instalação seja com Bundler. bundle exec rspec spec
+
+##Executando os testes
+rspec spec_file.rb   ou   rspec
 
