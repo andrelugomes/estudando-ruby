@@ -32,4 +32,14 @@ describe Hash do
   	#Atribuindo o primeiro valor ao Has
   	expect(hash[:primeiro]).to eq("default")
   end
+
+  it "deve ler um hash com diferentes tipos, tanto chaves quanto valores" do
+
+  	hashMultipleTypes = {"fixnum"=>1, :float=>1.2345, 1=>"um"}
+
+  	expect(hashMultipleTypes["fixnum"]).to eq(1)
+  	expect(hashMultipleTypes[:float]).to eq(1.2345)
+  	expect(hashMultipleTypes[1]).to eq("um")
+  	
+  end
 end
