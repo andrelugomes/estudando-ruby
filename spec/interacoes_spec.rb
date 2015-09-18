@@ -52,6 +52,17 @@ describe "Interações" do
 
 		expect(condicao).to eq(5)
 	end
+
+	it "deve fazer um form com in " do
+		#fazendo um array de Strings com os Numeros
+		condicao = %w(1 2 3 4 5)
+		soma=0
+		for index in condicao
+			soma += index.to_i 
+		end
+
+		expect(soma).to eq(15)
+	end
 	
 
 end
