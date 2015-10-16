@@ -27,8 +27,8 @@ describe Hash do
 
   	expect(hash.size).to eq(0)
 
-	hash[:primeiro]
-	hash[:segundo]
+    hash[:primeiro]
+    hash[:segundo]
   	#Atribuindo o primeiro valor ao Has
   	expect(hash[:primeiro]).to eq("default")
   end
